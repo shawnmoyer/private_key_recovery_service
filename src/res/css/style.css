@@ -1,0 +1,12 @@
+div.page-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 0 !important;
+}
+div.container{
+    display: flex;
+    justify-content: center;
+}
+img.header-logo{
+    width: 315px;
+}
