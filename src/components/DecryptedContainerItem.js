@@ -47,8 +47,8 @@ class DecryptedContainerItem extends Component {
                         </span>
                     </div>
                     <br/>
+                <label htmlFor="publickKeyShow">Public key:</label>
                 <div className="input-group">
-                    <label htmlFor="publickKeyShow">Public key:</label>
                     <input
                         className="form-control"
                         type='input'
@@ -58,8 +58,8 @@ class DecryptedContainerItem extends Component {
                     />
                 </div>
                 <br/>
+                <label htmlFor="addressShow">Address:</label>
                 <div className="input-group">
-                    <label htmlFor="addressShow">Address:</label>
                     <input
                         className="form-control"
                         type='input'

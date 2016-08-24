@@ -21,8 +21,8 @@ let containerReducer = function(containers = {}, action) {
                 encryptedContainer: containers.encryptedContainer,
                 decryptedContainer: {
                     privateKey: action.privateKey,
-                    publicKey: '',
-                    address: ''
+                    publicKey: action.publicKey,
+                    address: action.address
                 },
                 showDecryptedContainer: true,
                 hasErrors: false,

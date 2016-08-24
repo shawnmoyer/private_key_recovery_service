@@ -1,5 +1,6 @@
 import * as AmbiClient from "ambisafe-client-javascript";
 var Ambisafe = AmbiClient.Ambisafe;
+var _ethereumjsUtil = require('ethereumjs-util');
 
 let actions = {
     decryptContainer: function(encryptedContainer, password) {
@@ -20,9 +21,12 @@ let actions = {
                 hasError: "Wrong password"
             }
         }
+        let account = Ambisafe.fromPrivateKey(privateKey, password, container.salt);
         return {
             type: 'DECRYPT_CONTAINER',
-            privateKey: privateKey
+            privateKey: privateKey,
+            publicKey: account.data.public_key,
+            address : '0x' + (0, _ethereumjsUtil.pubToAddress)(new Buffer(account.data.public_key, 'hex'), true).toString('hex')
         }
     }
 };

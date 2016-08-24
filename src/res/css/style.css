@@ -10,3 +10,7 @@ div.container{
 img.header-logo{
     width: 315px;
 }
+
+div.input-group{
+    width: 100%;
+}
