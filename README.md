@@ -9,7 +9,7 @@ Documentation with HOWTO recover private key from encrypted container.
 
 2)Extract repository on your local computer and open extracted folder
 
-3)In extracted folder open folder src
+3)In extracted folder open folder ***src***
 
 4)Find file ***"index.html"*** and open its by your web browser (Try to avoid using IE browsers)
 
@@ -25,7 +25,9 @@ Example:
 }
 ```
 
-6)Paste copied encrypted container (1) and your password (2)(that was last used at your wallet account) in opened by browser page:
+6)Paste copied encrypted container (1) and your password (2)(that was last used at your wallet account) 
+in opened by browser page:
+
 <img src="/img/container_paste_helper.png"/>
 
 7)Press button "Decrypt", the result will be PrivateKey, PublicKey and address.
