@@ -5,8 +5,7 @@ Documentation with HOWTO recover private key from encrypted container.
 **Follow next steps to decrypt your wallet container:**
 
 1)Download this repository to your local computer by clicking button "Clone or download" > Download ZIP:
-![pic](https://github.com/Ambisafe/private_key_recovery_service/tree/master/img/download_help_pic.png)
-[[https://github.com/Ambisafe/private_key_recovery_service/tree/master/img/download_help_pic.png|alt=pic]]
+<img src="/img/download_help_pic.png"/>
 
 2)Extract repository on your local computer and open extracted folder
 
@@ -27,7 +26,7 @@ Example:
 ```
 
 6)Paste copied encrypted container (1) and your password (2)(that was last used at your wallet account) in opened by browser page:
-![pic](https://github.com/Ambisafe/private_key_recovery_service/tree/master/img/container_paste_helper.png)
+<img src="/img/container_paste_helper.png"/>
 
 7)Press button "Decrypt", the result will be PrivateKey, PublicKey and address.
 
