@@ -6,10 +6,14 @@ Documentation with HOWTO recover private key from encrypted container.
 
 1)Download this repository to your local computer by clicking button "Clone or download" > Download ZIP:
 ![pic](https://github.com/Ambisafe/private_key_recovery_service/tree/master/img/download_help_pic.png)
+[[https://github.com/Ambisafe/private_key_recovery_service/tree/master/img/download_help_pic.png|alt=pic]]
 
 2)Extract repository on your local computer and open extracted folder
+
 3)In extracted folder open folder src
+
 4)Find file ***"index.html"*** and open its by your web browser (Try to avoid using IE browsers)
+
 5)Copy encrypted container that was send to you by email:
 *please copy all container, how its show on example below*
 Example:
