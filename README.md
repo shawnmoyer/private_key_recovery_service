@@ -1,20 +1,24 @@
 # Ambisafe encrypted container decryption
 
-Documentation with HOWTO recover private key from encrypted container.
+This library is developed to make your wallet container decryption as safe as possible. 
+You’ll find the detailed HOWTO bellow.
 
-**Follow next steps to decrypt your wallet container:**
+***Security notice: Ambisafe NEVER gets, stores or requests your decrypted data. 
+All the decryption happens inside your PC and should NOT be shared with any third parties!***
+
+**Follow the next steps to decrypt your wallet container:**
 
 1)Download this repository to your local computer by clicking button "Clone or download" > Download ZIP:
 <img src="/img/download_help_pic.png"/>
 
-2)Extract repository on your local computer and open extracted folder
+2)Extract repository to your local computer and open the extracted folder.
 
 3)In extracted folder open folder ***src***
 
-4)Find file ***"index.html"*** and open its by your web browser (Try to avoid using IE browsers)
+4)Go to the *src* folder, find file *index.html* and open it with your web browser (avoid using IE browsers).
 
-5)Copy encrypted container that was send to you by email:
-*please copy all container, how its show on example below*
+5)Copy the encrypted container which was emailed to you. 
+Please copy all the container the same way as it’s shown at the example below.
 Example:
 ```json
 {
@@ -25,14 +29,14 @@ Example:
 }
 ```
 
-6)Paste copied encrypted container (1) and your password (2)(that was last used at your wallet account) 
-in opened by browser page:
+6)Paste your encrypted container (1) and your matching password (2) at the html page (check the screenshot below).
 
 <img src="/img/container_paste_helper.png"/>
 
 7)Press button "Decrypt", the result will be PrivateKey, PublicKey and address.
 
-**Save decrypted data, and be shure not to show anyone your decrypted private key.**
+8)Save this decrypted data and *never share your decrypted private key with any third parties*. 
+Keep in mind that the person who has access to your decrypted private key has full control over your assets.
 
 # Using decrypted private key in Mist wallet TODO
 
